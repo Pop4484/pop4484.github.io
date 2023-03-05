@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    background-image: url("../images/mugen1.png");
+}
+
+.spot {
+    position: relative;
+    width: 750px;
+    height: 347px;
+    margin: auto;
+    border: #000 0px solid;
+    background-image: url("../images/mugen.png");
+}
+
+.spottitle {
+    width: 100%;
+    margin: auto;
+    background-image: url("../images/mugen.png");
+    text-align: center;
+}
+
+.spottext {
+    width: 100%;
+    text-align: left;
+}
+
+.portrait {
+    width: 240px;
+    image-rendering: pixelated;
+    float: left;
+}
+
+.downloadbutton {
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+    background-image: url("../images/download.png");
+    background-color: lime;
+    border-color: lime;
+    image-rendering: pixelated;
+    position: absolute;
+    float: left;
+    bottom: 0px;
+    right: 0px;
+}
+
+spottitle {
+    color: white;
+    font-size: 48px;
+}
