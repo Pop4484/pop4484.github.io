@@ -1,23 +1,29 @@
+@font-face {
+    font-family: "comical";
+    src: local("comical"), url(fonts/comic.ttf);
+    
+}
+
 body {
     background-color: darkorchid;
 }
 
 sitetitle {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "comical", cursive;
     src: url(fonts/comic.ttf);
     color: yellow;
     font-size: 48px;
 }
 
 cooltitle {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "comical", cursive;
     src: url(fonts/comic.ttf);
     color: yellow;
     font-size: 24px;
 }
 
 link1 {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "comical", cursive;
     src: url(fonts/comic.ttf);
     color: blue;
     font-size: 12px;
